@@ -1,0 +1,39 @@
+#root {
+  background: rgb(188,34,195);
+  background: linear-gradient(325deg, rgba(188,34,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.navbar {
+  height: 10vh;
+}
+
+.chat {
+  overflow-y: scroll;
+  min-height: 70vh;
+  background: #fff;
+  position: relative;
+}
+
+.chat .bottom {
+  height: 100%
+}
+
+.message {
+  padding: 10px;
+  height: 20vh;
+}
+
+.media {
+  margin-bottom: 10px;
+  min-height: 10px;
+}
+
+.media-heading {
+  font-size: 12pt;
+  margin-bottom: 0;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
